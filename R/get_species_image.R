@@ -1,6 +1,6 @@
 #' Download species image
 #'
-#' @description Download an image or series of images for a species, from the Reef Life Survey website
+#' @description Download an image or series of images for a species, from the Reef Life Survey website.
 #' @param species_name Character string of species name.
 #' @param image_number Single integer value or a vector of integers with the image number.
 #' @return A magick image file.
@@ -9,6 +9,7 @@
 #' @import stringr
 #' @import rvest
 #' @examples
+#' \dontrun{
 #' # get a single image for the species
 #' get_species_image("Pseudocheilinus hexataenia")
 #' get_species_image("Pseudocheilinus hexataenia", 1)
@@ -34,6 +35,7 @@
 #'                                            xmax = 3,
 #'                                            ymin = 8,
 #'                                            ymax = 10) }
+#' }
 get_species_image <- function(species_name, image_number = 1){
 
   url <-

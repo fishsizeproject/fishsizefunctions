@@ -4,7 +4,12 @@ Title: Fish Size Project functions
 Version: 0.1.0
 Author: Freddie Heather
 Maintainer: Freddie Heather <freddie.heather@utas.edu.au>
-Description: Tidy place for useful function used in our analysis of the Fish Size Project
-License: MIT license
+Description: Tidy place for useful function used in our analysis of the Fish Size Project.
+License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.2.3
+Imports: 
+  magick,
+  stringr,
+  httr,
+  rvest

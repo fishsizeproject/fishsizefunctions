@@ -18,6 +18,7 @@ A magick image file.
 Download an image or series of images for a species, from the Reef Life Survey website
 }
 \examples{
+\dontrun{
 # get a single image for the species
 get_species_image("Pseudocheilinus hexataenia")
 get_species_image("Pseudocheilinus hexataenia", 1)
@@ -43,4 +44,5 @@ ggplot() +
                                            xmax = 3,
                                            ymin = 8,
                                            ymax = 10) }
+}
 }
