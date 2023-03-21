@@ -36,6 +36,7 @@
 #'                                            ymin = 8,
 #'                                            ymax = 10) }
 #' }
+#' @export
 get_species_image <- function(species_name, image_number = 1){
 
   url <-
