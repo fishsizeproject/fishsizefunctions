@@ -50,7 +50,7 @@ get_species_image <- function(species_name, image_number = 1){
              tolower() |>
              stringr::str_replace_all(" ", "-"))
 
-  if(!httr::http_error(url)){
+    if(!httr::http_error(url)){
 
     url_vector <-
       url |>
