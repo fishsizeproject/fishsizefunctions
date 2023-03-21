@@ -15,7 +15,7 @@ get_species_image(species_name, image_number = 1)
 A magick image file.
 }
 \description{
-Download an image or series of images for a species, from the Reef Life Survey website
+Download an image or series of images for a species, from the Reef Life Survey website.
 }
 \examples{
 \dontrun{
@@ -45,4 +45,5 @@ ggplot() +
                                            ymin = 8,
                                            ymax = 10) }
 }
+
 }

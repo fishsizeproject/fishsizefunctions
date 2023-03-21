@@ -1,13 +1,17 @@
-#' Download species image
+#' @title Download species image
 #'
 #' @description Download an image or series of images for a species, from the Reef Life Survey website.
+#'
 #' @param species_name Character string of species name.
 #' @param image_number Single integer value or a vector of integers with the image number.
+#'
 #' @return A magick image file.
+#'
 #' @import httr
 #' @import magick
 #' @import stringr
 #' @import rvest
+#'
 #' @examples
 #' \dontrun{
 #' # get a single image for the species
@@ -36,6 +40,7 @@
 #'                                            ymin = 8,
 #'                                            ymax = 10) }
 #' }
+#'
 #' @export
 get_species_image <- function(species_name, image_number = 1){
 
