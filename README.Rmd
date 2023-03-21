@@ -24,7 +24,7 @@ The goal of fishsizefunctions is to download species photographic images from th
 
 You can install the development version of fishsizefunctions from [GitHub](https://github.com/) with:
 
-```{r}
+```{r message = FALSE, warning=FALSE}
 # install.packages("devtools")
 devtools::install_github("fishsizeproject/fishsizefunctions")
 ```

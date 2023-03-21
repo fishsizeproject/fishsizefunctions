@@ -17,8 +17,6 @@ You can install the development version of fishsizefunctions from
 ``` r
 # install.packages("devtools")
 devtools::install_github("fishsizeproject/fishsizefunctions")
-#> Skipping install of 'fishsizefunctions' from a github remote, the SHA1 (ea1fa808) has not changed since last install.
-#>   Use `force = TRUE` to force installation
 ```
 
 ## Example
